@@ -1,0 +1,33 @@
+.process-wrapper {
+    padding: 0 170px;
+    margin:  2rem 0 4rem;
+}
+
+.process-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.process-content {
+    border: 1px solid #191A23;
+    border-radius: 1rem;
+    box-shadow: 0 4px #191A23;
+    background-color: #F3F3F3;
+    padding: 1.4rem;
+}
+
+.process-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.process-title>h2 {
+    font-size: 32px;
+}
+
+.process-title>p {
+    font-size: 20px;
+    font-weight: 500;
+}

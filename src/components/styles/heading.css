@@ -1,0 +1,20 @@
+.heading-wrapper {
+    padding: 0 170px;
+    margin: 2rem 0;
+}
+
+.heading-container {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.heading {
+    background-color: #B9FF66;
+    padding: 0.2rem 0.9rem;
+    border-radius: 5px;
+}
+
+.subheading {
+    width: 50%;
+}

@@ -1,0 +1,33 @@
+.case-wrapper {
+    padding: 0 135px 0 170px;
+    margin: 2rem 0 4rem;
+}
+
+.case-container {
+    background-color: #191A23;
+    color: #F3F3F3;
+    padding: 2.8rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.case-content:not(:first-child) {
+    padding-left: 30px;
+}
+.case-content:not(:last-child) {
+    border-right: 1px solid #F3F3F3;
+    padding-right: 20px;
+}
+.case-content:last-child {
+    border-right: none;
+}
+
+.study {
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-bottom: 28px;
+}

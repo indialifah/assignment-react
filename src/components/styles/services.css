@@ -1,0 +1,48 @@
+.services-wrapper {
+    padding: 0 170px;
+    margin: 2rem 0 4rem;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+}
+
+.card {
+    padding: 1.8rem 2.2rem;
+    border: 1px solid #191A23;
+    border-radius: 2rem;
+    box-shadow: 0 4px #191A23;
+    background-color: #F3F3F3;
+
+    display: grid;
+    grid-template-columns: auto 40%;
+
+    
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 2px 8px 0.5rem #B9FF66;
+    padding: 0 8px;
+    border-radius: 6px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.learn-more img {
+    width: 30px;
+}

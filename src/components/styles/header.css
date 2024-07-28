@@ -1,0 +1,40 @@
+.header-wrapper {
+    padding: 0 170px;
+    margin: 60px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2.8rem;
+} 
+
+.header-title {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.header-desc {
+    font-size: 18px;
+}
+
+.illustration img {
+    width: 600px;
+}
+
+button {
+    width: 40%;
+    padding: 0.8rem 1rem;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #191A23;
+    color: #F3F3F3;
+    cursor: pointer;
+}

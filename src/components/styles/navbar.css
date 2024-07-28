@@ -1,0 +1,45 @@
+.navbar-wrapper {
+    padding: 1.4rem;
+    color: #191A23;
+    
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #191A23;
+}
+
+.button-req {
+    border: 1px solid #191A23;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-wrapper img {
+    width: 28px;
+    height: 28px;
+
+}
